@@ -16,6 +16,7 @@ function Todo() {
 
   return (
     <div className="todo-container">
+      <div class="information">i</div>
       <div className="header">TODO</div>
       <div className="tasks">
         {tasks.map((task, index) => (
