@@ -26,7 +26,7 @@
 body {
   background: var(--list-color);
   font-family: "Baloo Thambi 2", cursive;
-  font-weight: 100;
+  font-weight: bold;
 }
 
 .todo-container {
@@ -43,11 +43,39 @@ body {
 
 .task {
   padding: 0.5em;
-  margin: 0.5em;
+  margin: 0.3em;
 }
+
+.todo-checkbox {
+  position: relative;
+  background: var(--list-color);
+  width: 1.3em;
+  height: 1.3em;
+  top: 2.2em;
+  left: 90%;
+  border-radius: 50%;
+  background: #d0e2ec;
+  box-shadow: 5px 5px 10px #b1c0c9, -5px -5px 10px #efffff;
+}
+
+.innerCircle{
+  position: relative;
+  background: grey;
+  width: 40%;
+  height: 40%;
+  left: 25%;
+  top: .4em;
+  border-radius: 50%;
+}
+
+/* .todo-checkbox:hover{
+  background: tomato;
+} */
 
 .task:hover {
   cursor: pointer;
+  transition: 0.2s ease-in-out;
+  color: tomato;
 }
 
 .task button {
@@ -78,53 +106,48 @@ body {
 button {
   border-radius: 50px;
   background: #d0e2ec;
-  box-shadow: 10px 10px 20px #b1c0c9, -10px -10px 20px #efffff;
+  box-shadow: 5px 5px 10px var(--box-shadow-var1), -5px -5px 10px #efffff;
   border: none;
   outline: none;
-  transition: 0.2s ease-in-out;
+  transition: 0.1s ease-in-out;
   padding: 10px;
   width: 50%;
+  font-weight: bold;
   /* margin-left: 43%; */
 }
 
+button:active {
+  /* color: tomato; */
+  transition: 0.1s ease-in-out;
+  border-radius: 50px;
+  background: #d0e2ec;
+  box-shadow: inset 5px 5px 10px var(--box-shadow-var1),
+    inset -5px -5px 10px #efffff;
+}
+
 button:hover {
+  color: tomato;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+/* button:hover {
   border: none;
   border-radius: 50px;
   background: #d0e2ec;
   box-shadow: 5px 5px 10px #b1c0c9, -5px -5px 10px #efffff;
   transition: 0.2s ease-in-out;
-}
+  color: tomato;
+} */
 
 input[type="text"] {
   background: #d0e2ec;
-  transition: 0.2s ease-in-out;
   margin: 2.5em 2em;
   width: 80%;
   outline: none;
   padding: 0.7em;
   border: none;
-  border-bottom: 1px solid black;
-  text-shadow: 0 0 0 0;
-}
-
-.information {
-  border-radius: 50%;
-  width: 25px;
-  height: 25px;
-  background: tomato;
-  position: relative;
-  left: 90%;
+  border-radius: 36px;
   background: #d0e2ec;
-  box-shadow: 10px 10px 20px #b1c0c9, -10px -10px 20px #efffff;
-  transition: ease-in .5s;
-  /* clip-path: polygon(97.72% 6%, 97.72% 90%, 10.24% 94%, 10% 10%); */
-}
-
-.information:hover {
-  /* background: purple; */
-  border-radius: 0%;
-  width: 100%;
-  height: 100%;
-  transition: ease-in .5s;
-  clip-path: polygon(97.72% 6%, 97.72% 90%, 0.25% 106%, 0.01% 14%);
+  box-shadow: inset 5px 5px 10px #afbec6, inset -5px -5px 10px #f1ffff;
 }

@@ -4,7 +4,9 @@ import "../fonts.css";
 function Task({ task }) {
   return (
     <div>
-      <div className="todo-checkbox"></div>
+      <div className="todo-checkbox">
+        <div class="innerCircle"></div>
+      </div>
       <div
         className="task"
         style={{ textDecoration: task.completed ? "line-through" : "" }}

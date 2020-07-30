@@ -16,15 +16,14 @@ function Todo() {
 
   return (
     <div className="todo-container">
-      <div class="information">i</div>
       <div className="header">TODO</div>
       <div className="tasks">
         {tasks.map((task, index) => (
           <Task task={task} index={index} key={index} />
         ))}
-        <div className="todo-checkbox"></div>
+        {/* <div className="todo-checkbox"></div> */}
         <div className="create-task">
-          <CreateTask addTask={addTask}/>
+          <CreateTask addTask={addTask} />
         </div>
       </div>
     </div>

@@ -18,6 +18,7 @@ function CreateTask(props) {
       <input
         type="text"
         className="input"
+        spellCheck="false"
         placeholder="Add an item"
         value={value}
         onChange={(e) => setValue(e.target.value)}
