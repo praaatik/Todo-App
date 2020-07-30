@@ -9,24 +9,11 @@
   background: #72cbb9;
 }
 
-/*.light {
-  --list-color: #d0e2ec;
-  --text-color: rgb(37, 32, 32);
-  --box-shadow-var1: #b1c0c9;
-  --box-shadow-var2: #efffff;
-}
-
- .dark{
-  --list-color: #161718;
-  --text-color: whitesmoke;
-  --box-shadow-var1: #0a0b0b;
-  --box-shadow-var2: #222325;
-} */
-
 body {
   background: var(--list-color);
-  font-family: "Baloo Thambi 2", cursive;
-  font-weight: bold;
+  /* font-family: "Baloo Thambi 2", cursive; */
+  font-family: "Nunito Sans", sans-serif;
+  /* font-weight: bold; */
 }
 
 .todo-container {
@@ -45,32 +32,6 @@ body {
   padding: 0.5em;
   margin: 0.3em;
 }
-
-.todo-checkbox {
-  position: relative;
-  background: var(--list-color);
-  width: 1.3em;
-  height: 1.3em;
-  top: 2.2em;
-  left: 90%;
-  border-radius: 50%;
-  background: #d0e2ec;
-  box-shadow: 5px 5px 10px #b1c0c9, -5px -5px 10px #efffff;
-}
-
-.innerCircle{
-  position: relative;
-  background: grey;
-  width: 40%;
-  height: 40%;
-  left: 25%;
-  top: .4em;
-  border-radius: 50%;
-}
-
-/* .todo-checkbox:hover{
-  background: tomato;
-} */
 
 .task:hover {
   cursor: pointer;
@@ -112,13 +73,10 @@ button {
   transition: 0.1s ease-in-out;
   padding: 10px;
   width: 50%;
-  font-weight: bold;
-  /* margin-left: 43%; */
 }
 
 button:active {
-  /* color: tomato; */
-  transition: 0.1s ease-in-out;
+  transition: 5s ease-in-out;
   border-radius: 50px;
   background: #d0e2ec;
   box-shadow: inset 5px 5px 10px var(--box-shadow-var1),
@@ -130,15 +88,6 @@ button:hover {
   transition: 0.2s ease-in-out;
   cursor: pointer;
 }
-
-/* button:hover {
-  border: none;
-  border-radius: 50px;
-  background: #d0e2ec;
-  box-shadow: 5px 5px 10px #b1c0c9, -5px -5px 10px #efffff;
-  transition: 0.2s ease-in-out;
-  color: tomato;
-} */
 
 input[type="text"] {
   background: #d0e2ec;

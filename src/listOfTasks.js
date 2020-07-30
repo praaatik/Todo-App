@@ -1,4 +1,4 @@
-const listOfTasks = [
+const listOfTask = [
   {
     title: "Grab some Pizza",
     completed: true,
@@ -12,4 +12,4 @@ const listOfTasks = [
     completed: false,
   },
 ];
-export { listOfTasks };
+export { listOfTask };

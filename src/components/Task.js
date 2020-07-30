@@ -1,17 +1,20 @@
 import React from "react";
 import "../fonts.css";
 
-function Task({ task }) {
+function Task(props) {
+  console.log(props.completed);
   return (
-    <div>
-      <div className="todo-checkbox">
-        <div class="innerCircle"></div>
-      </div>
+    <div
+      onClick={() => {
+        console.log(props.index);
+        return props.onChecked(props.index);
+      }}
+    >
       <div
         className="task"
-        style={{ textDecoration: task.completed ? "line-through" : "" }}
+        style={{ textDecoration: props.completed ? "line-through" : "" }}
       >
-        {task.title}
+        {props.task.title}
       </div>
     </div>
   );
