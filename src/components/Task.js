@@ -12,7 +12,7 @@ function Task(props) {
     >
       <div
         className="task"
-        style={{ textDecoration: props.completed ? "line-through" : "" }}
+        // style={{ textDecoration: props.completed ? "line-through" : "" }}
       >
         {props.task.title}
       </div>

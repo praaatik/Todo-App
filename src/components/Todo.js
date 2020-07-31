@@ -19,7 +19,6 @@ function Todo() {
   function deleteItem(id) {
     setTasks((oldItems) => {
       return oldItems.filter((item, index) => {
-        item.completed = true;
         return index !== id;
       });
     });
@@ -35,7 +34,6 @@ function Todo() {
             index={index}
             key={index}
             onChecked={deleteItem}
-            completed={task.completed}
           />
         ))}
         <div className="create-task">
