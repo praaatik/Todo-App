@@ -10,7 +10,7 @@ A simple Todo app built using [React](https://reactjs.org/), to practice and get
 
 - Go to the directory of the project
 
-  `cd Todo-App`
+  `cd Todo-App/`
 
 - Start the application
 
