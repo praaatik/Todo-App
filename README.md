@@ -25,12 +25,9 @@ The design has been inspired from the [Neumorphic designs](https://uxdesign.cc/n
 Since I'm not primarily a UI/UX designer, I found it best to refer the designs instead of creating them.
 
 ## Screenshot
+<img src="https://github.com/praaatik/Todo-App/blob/master/screenshotLight.PNG" width=1000px height 500px>
+<img src="https://github.com/praaatik/Todo-App/blob/master/screenshotDark.PNG" width=1000px height 500px>
 
-<<<<<<< HEAD
-<img src="screenshotDark.png"><img src="screenshotLight.png">
-=======
-<img src="https://github.com/praaatik/Todo-App/blob/master/screenshot.PNG" width=1000px height=500px>
->>>>>>> 2b10faf679fc89e99ea3ca35743656cfd6cacbf7
 
 ## Addendum
 
