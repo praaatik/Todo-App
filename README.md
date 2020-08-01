@@ -26,14 +26,14 @@ Since I'm not primarily a UI/UX designer, I found it best to refer the designs i
 
 ## Screenshot
 
-<img src="screenshot.png">
+<img src="screenshotDark.png"><img src="screenshotLight.png">
 
 ## Addendum
 
 - [npm](https://www.npmjs.com/get-npm) needs to be installed prior to running the app.
 
 - Things which I might update in the future
-  - Adding a dark theme.
+  - ~~Adding a dark theme.~~ _Added this_
   - Adding options to update list items.
   - Adding sessions.
   - Adding a backend to store the list items.
