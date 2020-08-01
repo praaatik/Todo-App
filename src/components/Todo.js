@@ -5,7 +5,17 @@ import CreateTask, { createTask } from "./CreateTask";
 import "../styles/fonts.css";
 
 function Todo() {
-  const listOfTask = [];
+  const listOfTask = [
+    {
+      title: "Add an item",
+      completed: false,
+    },
+
+    {
+      title: "Click on a task to delete",
+      completed: false,
+    },
+  ];
 
   const [tasks, setTasks] = useState(listOfTask);
 
@@ -29,12 +39,7 @@ function Todo() {
       <div className="header">My Todo List</div>
       <div className="tasks">
         {tasks.map((task, index) => (
-          <Task
-            task={task}
-            index={index}
-            key={index}
-            onChecked={deleteItem}
-          />
+          <Task task={task} index={index} key={index} onChecked={deleteItem} />
         ))}
         <div className="create-task">
           <CreateTask addTask={addTask} />
