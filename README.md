@@ -26,7 +26,7 @@ Since I'm not primarily a UI/UX designer, I found it best to refer the designs i
 
 ## Screenshot
 
-<img src="https://github.com/praaatik/Todo-App/blob/master/screenshot.PNG" width=600px height=600px>
+<img src="https://github.com/praaatik/Todo-App/blob/master/screenshot.PNG" width=1000px height=500px>
 
 ## Addendum
 
