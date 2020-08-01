@@ -7,10 +7,11 @@
 
 ::selection {
   background: #72cbb9;
+  color: rgb(37, 32, 32);
 }
 
 body {
-  background: var(--list-color);
+  background: #d0e2ec;
   /* font-family: "Baloo Thambi 2", cursive; */
   font-family: "Nunito Sans", sans-serif;
   /* font-weight: bold; */
@@ -21,11 +22,10 @@ body {
   margin: 6em auto;
   padding: 20px 10px;
   text-align: center;
-  color: var(--text-color);
+  color: rgb(37, 32, 32);
   border-radius: 50px;
-  background: var(--list-color);
-  box-shadow: 20px 20px 60px var(--box-shadow-var1),
-    -20px -20px 60px var(--box-shadow-var2);
+  background: #d0e2ec;
+  box-shadow: 20px 20px 60px #b1c0c9, -20px -20px 60px #efffff;
 }
 
 .task {
@@ -36,12 +36,12 @@ body {
 .task:hover {
   cursor: pointer;
   transition: 0.2s ease-in-out;
-  color: tomato;
+  color: #2aa88fdc;
 }
 
 .task button {
   background: rgb(12, 124, 251);
-  border-radius: 5px;
+  border-radius: 10px;
   margin: 0px 5px;
   padding: 3px 5px;
   border: none;
@@ -54,6 +54,16 @@ body {
   margin: 0.5em;
   font-size: 2em;
   text-align: center;
+  background: #d0e2ec;
+  box-shadow: 5px 5px 15px #b1c0c9, -5px -5px 15px #efffff;
+  padding: 1em;
+  border-radius: 10px;
+  transition: 0.1s ease-in-out;
+}
+
+.header:hover {
+  color: #2aa88fdc;
+  transition: 0.1s ease-in-out;
 }
 
 .create-task {
@@ -65,9 +75,9 @@ body {
 }
 
 button {
-  border-radius: 50px;
+  border-radius: 10px;
   background: #d0e2ec;
-  box-shadow: 5px 5px 10px var(--box-shadow-var1), -5px -5px 10px #efffff;
+  box-shadow: 5px 5px 10px #b1c0c9, -5px -5px 10px #efffff;
   border: none;
   outline: none;
   transition: 0.1s ease-in-out;
@@ -77,14 +87,13 @@ button {
 
 button:active {
   transition: 5s ease-in-out;
-  border-radius: 50px;
+  border-radius: 10px;
   background: #d0e2ec;
-  box-shadow: inset 5px 5px 10px var(--box-shadow-var1),
-    inset -5px -5px 10px #efffff;
+  box-shadow: inset 5px 5px 10px #b1c0c9, inset -5px -5px 10px #efffff;
 }
 
 button:hover {
-  color: tomato;
+  color: #2aa88fdc;
   transition: 0.2s ease-in-out;
   cursor: pointer;
 }
@@ -96,7 +105,7 @@ input[type="text"] {
   outline: none;
   padding: 0.7em;
   border: none;
-  border-radius: 36px;
+  border-radius: 10px;
   background: #d0e2ec;
   box-shadow: inset 5px 5px 10px #afbec6, inset -5px -5px 10px #f1ffff;
 }

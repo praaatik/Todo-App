@@ -1,5 +1,5 @@
 import React from "react";
-import "../fonts.css";
+import "../styles/fonts.css";
 
 function Task(props) {
   console.log(props.completed);

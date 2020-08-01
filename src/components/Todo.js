@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import "../Todo.css";
+import "../styles/Todo.css";
 import { Task } from "./Task";
 import CreateTask, { createTask } from "./CreateTask";
-import "../fonts.css";
+import "../styles/fonts.css";
 
 function Todo() {
   const listOfTask = [];
