@@ -24,9 +24,10 @@ The design has been inspired from the [Neumorphic designs](https://uxdesign.cc/n
 
 Since I'm not primarily a UI/UX designer, I found it best to refer the designs instead of creating them.
 
-## Screenshot
+## Screenshots
 
-
+<img src="https://github.com/praaatik/Todo-App/blob/master/screenshotDark.PNG" width=490px height=400px></img>
+<img src="https://github.com/praaatik/Todo-App/blob/master/screenshotLight.PNG" width=490px height=400px></img>
 
 
 ## Addendum
@@ -41,3 +42,4 @@ Since I'm not primarily a UI/UX designer, I found it best to refer the designs i
   - Making the design responsive.
 
 If you have some updates or issues, please feel free to raise a PR. Also, any feedbacks would be appreciated :)
+
