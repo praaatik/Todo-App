@@ -10,7 +10,7 @@ A simple Todo app built using [React](https://reactjs.org/), to practice and get
 
 - Go to the directory of the project
 
-  `cd Todo-App`
+  `cd Todo-App/`
 
 - Start the application
 
@@ -26,7 +26,11 @@ Since I'm not primarily a UI/UX designer, I found it best to refer the designs i
 
 ## Screenshot
 
+<<<<<<< HEAD
 <img src="screenshotDark.png"><img src="screenshotLight.png">
+=======
+<img src="https://github.com/praaatik/Todo-App/blob/master/screenshot.PNG" width=1000px height=500px>
+>>>>>>> 2b10faf679fc89e99ea3ca35743656cfd6cacbf7
 
 ## Addendum
 
