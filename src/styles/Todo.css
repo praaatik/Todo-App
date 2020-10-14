@@ -38,6 +38,7 @@ body {
   background: var(--list-color);
   box-shadow: 20px 20px 60px var(--box-shadow-var1),
     -20px -20px 60px var(--box-shadow-var2);
+  cursor: auto;
 }
 
 .task {

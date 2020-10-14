@@ -12,6 +12,10 @@ A simple Todo app built using [React](https://reactjs.org/), to practice and get
 
   `cd Todo-App/`
 
+- Install the node dependencies
+
+  `npm install`
+
 - Start the application
 
   `npm start`
@@ -29,7 +33,6 @@ Since I'm not primarily a UI/UX designer, I found it best to refer the designs i
 <img src="https://github.com/praaatik/Todo-App/blob/master/screenshotDark.PNG" width=490px height=400px></img>
 <img src="https://github.com/praaatik/Todo-App/blob/master/screenshotLight.PNG" width=490px height=400px></img>
 
-
 ## Addendum
 
 - [npm](https://www.npmjs.com/get-npm) needs to be installed prior to running the app.
@@ -42,4 +45,3 @@ Since I'm not primarily a UI/UX designer, I found it best to refer the designs i
   - Making the design responsive.
 
 If you have some updates or issues, please feel free to raise a PR. Also, any feedbacks would be appreciated :)
-
